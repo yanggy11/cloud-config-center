@@ -5,7 +5,6 @@ spring:
     name: cloud-config
   cloud:
     config:
-#      uri: http://localhost:1980
       server:
         git:
           uri: https://github.com/yanggy11/cloud-config-repo
