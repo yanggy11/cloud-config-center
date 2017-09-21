@@ -1,10 +1,11 @@
 server:
-  port: 1980
+  port: 8888
 spring:
   application:
     name: cloud-config
   cloud:
     config:
+      uri: http://localhost:8888
       server:
         git:
           uri: https://github.com/yanggy11/cloud-config-repo
