@@ -5,11 +5,11 @@ spring:
     name: cloud-config
   cloud:
     config:
-      uri: http://192.168.1.101:8888
+      uri: http://192.168.1.100:8888
       server:
         git:
           uri: https://github.com/yanggy11/cloud-config-repo
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.1.101:1988/eureka/
+      defaultZone: http://192.168.1.100:1988/eureka/
