@@ -1,20 +1,20 @@
 server:
-  port: 8886
+  port: 8887
 spring:
   application:
     name: cloud-config
   cloud:
     config:
-      uri: http://192.168.1.100:8886
-#      uri: http://192.168.25.128:8887
+#      uri: http://192.168.1.100:8887
+      uri: http://localhost:8887
       server:
         git:
           uri: https://github.com/yanggy11/cloud-config-repo
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.1.100:8761/eureka/
-#      defaultZone: http://192.168.25.128:8761/eureka/
+#      defaultZone: http://192.168.1.100:8761/eureka/
+      defaultZone: http://localhost:8000/eureka/
 security:
   basic:
     enabled: false
