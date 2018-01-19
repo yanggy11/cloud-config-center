@@ -10,6 +10,11 @@ spring:
       server:
         git:
           uri: https://github.com/yanggy11/cloud-config-repo
+  rabbitmq:
+    host: 39.107.97.132
+    port: 5672
+    username: admin
+    password: admin
 eureka:
   client:
     serviceUrl:
