@@ -11,7 +11,7 @@ spring:
         git:
           uri: https://github.com/yanggy11/cloud-config-repo
   rabbitmq:
-    host: 192.168.33.82
+    host: 39.107.97.132
     port: 5672
     username: admin
     password: admin
