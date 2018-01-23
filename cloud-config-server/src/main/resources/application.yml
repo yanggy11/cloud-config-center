@@ -10,6 +10,11 @@ spring:
       server:
         git:
           uri: https://github.com/yanggy11/cloud-config-repo
+    bus:
+      refresh:
+        enabled: true
+      trace:
+        enabled: true
   rabbitmq:
     host: 39.107.97.132
     port: 5672
