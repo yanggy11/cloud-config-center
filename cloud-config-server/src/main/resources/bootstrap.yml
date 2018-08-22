@@ -6,8 +6,8 @@ spring:
   cloud:
     config:
 #      uri: http://192.168.1.100:8887
-      uri: http://39.107.97.132:8887
-#      uri: http://192.168.1.51:8887
+#      uri: http://39.107.97.132:8887
+      uri: http://192.168.1.51:8887
       server:
         git:
           uri: https://github.com/yanggy11/cloud-config-repo
