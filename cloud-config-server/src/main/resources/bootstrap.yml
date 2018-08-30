@@ -7,7 +7,7 @@ spring:
     config:
 #      uri: http://192.168.1.100:8887
 #      uri: http://39.107.97.132:8887
-      uri: http://192.168.1.51:8887
+      uri: http://localhost:8887
       server:
         git:
           uri: https://github.com/yanggy11/cloud-config-repo
@@ -25,7 +25,7 @@ eureka:
   client:
     serviceUrl:
 #      defaultZone: http://192.168.1.100:8761/eureka/
-      defaultZone: http://39.107.97.132:8000/eureka/
+      defaultZone: http://localhost:8000/eureka/
 #      defaultZone: http://192.168.1.51:8000/eureka
   instance:
     leaseRenewalIntervalInSeconds: 10
