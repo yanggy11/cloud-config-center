@@ -6,9 +6,9 @@ spring:
   cloud:
     config:
 #      uri: http://192.168.1.100:8887
-      uri: http://39.107.97.132:8887
+      uri: http://39.107.97.132:8887 #此配置即可在阿里云上打包docker镜像启动使用，勿动
 #      uri: http://localhost:8887
-      server:、
+      server:
         git:
           uri: https://github.com/yanggy11/cloud-config-repo
     bus:
